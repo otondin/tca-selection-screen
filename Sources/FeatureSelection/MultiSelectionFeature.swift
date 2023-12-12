@@ -3,9 +3,6 @@ import Foundation
 import SwiftUI
 import ComposableArchitecture
 import IdentifiedCollections
-import Models
-import ComponentLibrary
-import Localization
 
 public struct MultiSelectionFeature<Item: SelectableItemProtocol>: Reducer {
     
